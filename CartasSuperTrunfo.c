@@ -43,6 +43,11 @@ int main() {
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &pontos_turisticos1);
 
+     // Cálculos para a Carta 1
+     densidade_pop1 = populacao1 / area1;
+     pib_per_capita1 = (pib1 * 1000000000) / populacao1; //PIB em reais
+
+
     // Leitura dos dados da Carta 2
     printf("\nDigite os dados da Carta 2:\n");
 
@@ -67,6 +72,10 @@ int main() {
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &pontos_turisticos2);
 
+      // Cálculos para a Carta 2
+    densidade_pop2 = populacao2 / area2;
+    pib_per_capita2 = (pib2 * 1000000000) / populacao2; //PIB em reais.
+     
     // Exibição dos dados da Carta 1
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
